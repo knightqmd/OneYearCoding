@@ -71,3 +71,16 @@ Changes not staged for commit:
 ```bash
 git add 
 ```
+##  查看历史版本
+1. 产看日志信息
+```bash
+git log
+git reflog
+```
+2. 版本穿梭
+   1. 通过版本信息查看版本号
+   2. 找到需要穿梭的版本号
+   3. 使用git reset --hard $VERSION
+```bash
+git reset --hard $VERSION
+```
