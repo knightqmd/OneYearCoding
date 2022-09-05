@@ -83,4 +83,7 @@ git reflog
    3. 使用git reset --hard $VERSION
 ```bash
 git reset --hard $VERSION
+
+$ git reset --hard 9843275
+HEAD is now at 9843275 first time commit, md about basic git command
 ```
