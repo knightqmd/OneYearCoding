@@ -40,3 +40,6 @@
     * [new branch]      master -> master
 
 ```
+5. git clone [远程库地址]  #克隆远程库，该操作会拉取远程代码，并且自动创建本地库，并且为其创建别名默认为Origin
+   **建议使用git clone -o [别名] [远程库地址]**
+6. 
