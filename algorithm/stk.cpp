@@ -10,9 +10,9 @@ void push(int x)
     stk[++tt] = x;
 }
 
-void pop()
+int  pop()
 {
-    tt--;
+    return stk[tt--];
 }
 
 bool isempty()
@@ -28,7 +28,7 @@ bool isempty()
 }
 void show()
 {
-    for(int i = 0;i<=tt;i++)
+    for(int i = 1;i<=tt;i++)
     {
         cout<<stk[i]<<" ";
     }
@@ -40,7 +40,8 @@ void test()
     push(4);
     push(5);
     show();
-    pop();
+    int y = pop();
+    cout<<"y = "<<y<<endl;
     show();
     push(6);
     show();

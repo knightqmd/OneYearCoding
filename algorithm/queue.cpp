@@ -38,7 +38,7 @@ bool isempty()
 }
 void test()
 {
-    init();
+    init();----
     push(1);
     show();
     push(2);
