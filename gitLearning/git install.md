@@ -13,7 +13,7 @@ git config global User.email $YOUREMAIL
  ```shell
  git init
 #output 
-EX:Initialized empty Git repository in C:/UserApp/OneYearCodingLife/.git/
+EX:Initialized empty Git repository in C:/UserApp/OneYearCodinC:\UserApp\OneYearCodingLife\gitLearninggLife/.git/
 ```
 ```shell
 git status
